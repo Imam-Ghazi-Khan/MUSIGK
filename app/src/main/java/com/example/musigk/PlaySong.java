@@ -111,7 +111,7 @@ public class PlaySong extends AppCompatActivity {
             public void onClick(View v) {
                 mediaPlayer.stop();
                 mediaPlayer.release();
-                if (position != 0) {
+                if (position != 0){
                     position = position - 1;
                 } else {
                     position = songs.size() - 1;
